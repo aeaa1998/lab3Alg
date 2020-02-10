@@ -112,9 +112,12 @@ public class Sorter {
         int[] count = new int[list.size()];
         for (IterableStructure<T> s : list) {
             count[((Integer) s.getElement() / e) % 10]++;
+            System.out.println(((Integer) s.getElement() / e) % 10);
         }
+
         for(int i = 1; i < list.size(); i++){ count[i] = count[i] + count[i-1]; }
         for(int i = list.size()-1; i >=0; i--){
+
             output[count[((Integer) list.get(i).getElement() / e) % 10] - 1] = (Integer) list.get(i).getElement();
             count[((Integer) list.get(i).getElement()/e)%10]--;
         }
