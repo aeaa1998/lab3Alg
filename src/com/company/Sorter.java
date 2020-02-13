@@ -105,19 +105,22 @@ public class Sorter {
             radixSortList(list, exp);
         return list;
     }
-
+    /**
+     * This function is the one in charge of sorting the elements by the last meaning full digit
+     * output serves as a holder for the value so the list only gets mutated when each value is in its correct order
+     * @variable counter is used to get the number of elements per result from the mod % 10 * e from this values
+     * we can get the positions for each number.
+     * Meaning if in the order of numbers that had 3 for last digit there are 2 elements and there is 1 element for order 1 and 1 element
+     * for order 2 and 0 for order 0 the index value will begin from 5 going down to 3.
+     * **/
     private  <T extends Comparable<T>> void radixSortList(ArrayList<IterableStructure<T>> list, int e){
         Integer[] output = new Integer[list.size()];
-
         int[] count = new int[list.size()];
         for (IterableStructure<T> s : list) {
             count[((Integer) s.getElement() / e) % 10]++;
-            System.out.println(((Integer) s.getElement() / e) % 10);
         }
-
         for(int i = 1; i < list.size(); i++){ count[i] = count[i] + count[i-1]; }
         for(int i = list.size()-1; i >=0; i--){
-
             output[count[((Integer) list.get(i).getElement() / e) % 10] - 1] = (Integer) list.get(i).getElement();
             count[((Integer) list.get(i).getElement()/e)%10]--;
         }
