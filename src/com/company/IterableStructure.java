@@ -19,7 +19,7 @@ public class IterableStructure <T> implements Comparable <T> {
         if (this.element instanceof Integer){
             return (Integer)this.element - (Integer)o;
         }else{
-            return (Integer)this.element - (Integer)o;
+            return ((String)this.element).compareTo((String)o);
         }
     }
 }

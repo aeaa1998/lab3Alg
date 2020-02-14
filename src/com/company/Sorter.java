@@ -131,9 +131,12 @@ public class Sorter {
 
 
     private  <T extends Comparable<T>> IterableStructure<T> maxValue(ArrayList<IterableStructure<T>> list){
+        if(list.get(0).getElement() instanceof String) {
+
+        }
         IterableStructure<T> max = list.get(0);
         for (int i = 1; i < list.size(); i++) {
-            max = (max.compareTo(list.get(i).getElement()) >= 0) ? max : list.get(i);
+                max = (max.compareTo(list.get(i).getElement()) >= 0) ? max : list.get(i);
         }
         return max;
     }
