@@ -106,7 +106,7 @@ public class Controller {
     }
 
 
-    public String randomString(int codeLength) {
+    private String randomString(int codeLength) {
         String id = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         List<Character> temp = id.chars()
                 .mapToObj(i -> (char)i)

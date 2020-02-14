@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a104f597-654a-4477-b664-ceb925723893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/RandomString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/h3/com/company/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/h3/com/company/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/h3/com/company/Controller$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/h3/com/company/Controller$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/h3/com/company/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/h3/com/company/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/h3/com/company/IterableStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/h3/com/company/IterableStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/h3/com/company/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/h3/com/company/Sorter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random.txt" beforeDir="false" afterPath="$PROJECT_DIR$/random.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/IterableStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/IterableStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Sorter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +147,7 @@
       <workItem from="1581284002946" duration="7000" />
       <workItem from="1581284013427" duration="1479000" />
       <workItem from="1581567564857" duration="1467000" />
-      <workItem from="1581656386234" duration="3642000" />
+      <workItem from="1581656386234" duration="3880000" />
     </task>
     <servers />
   </component>
